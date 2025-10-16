@@ -15,7 +15,9 @@ def process_segment_index(ml_path):
     data_ml = img_ml.get_fdata()
     volume = vedo.Volume(data_ml)
     data = volume.tonumpy()
-
+    segment_id = []
     unique_labels = np.unique(data)
-    segment_id = [label for label in unique_labels if label > 0]
+    for label in unique_labels:
+        if label > 0:
+            segment_id.append(label)
     return segment_id

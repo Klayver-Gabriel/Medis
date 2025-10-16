@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Images/3000534.000000-NA-58228" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (Medis)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
