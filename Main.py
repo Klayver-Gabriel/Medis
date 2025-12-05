@@ -10,6 +10,6 @@ def main():
         output_image = input("Enter the output folder name: ")
         SegmentService.segmentate(input_image,output_image)
 
-    ShowSegmentsService.show_multiple_segments(f"Results/dicom_mask.nii","plastic")
+    ShowSegmentsService.show_multiple_segments(f"Results/Masks.nii","plastic")
 if __name__ == '__main__':
     main()
